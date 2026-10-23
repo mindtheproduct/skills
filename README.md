@@ -34,6 +34,16 @@ A 3-stage practice for clarifying a hard product decision. Translate stakeholder
 
 [Original web tool →](https://www.mindtheproduct.com/make-the-call)
 
+### [`product-design-harness`](./product-design-harness/)
+
+A product judgment practice across User, Evidence and Business flows: decide whether a direction should continue, be verified or be reframed before execution or the next iteration. Use when a product direction, feature, workflow, experiment, launch, feedback signal, automation or scale decision needs judgment. Quick, Standard and Council modes serve this same practice. Compared with `make-the-call`'s conversational problem clarification and prioritisation snapshot, this skill supplies explicit verdicts, execution boundaries and structured review outputs; no unique coverage, unmet demand or adoption is established.
+
+This experimental source proposal preserves all 91 original files (336,238 bytes), executable modes and the original [MIT notice](./product-design-harness/LICENSE) from [cis2042/ux3-product-design-harness@48965c6b501f61ebbb8130c9c2e4f9af08922b9f](https://github.com/cis2042/ux3-product-design-harness/tree/48965c6b501f61ebbb8130c9c2e4f9af08922b9f/skills/product-design-harness). The original entry point and nested resources remain unchanged; no wrapper, manifest, agent, MCP service or permissions are added. The repository's root copyright does not replace this skill's original notice.
+
+Python validators require Python 3.10+ and `jsonschema`. Optional external evidence/model providers may incur costs and require separate user/host tool authorization; instructions grant no execution permission. Known upstream defects remain: whitespace-padded prohibited overrides can be accepted, and referenced `ux3-model.svg`, `intersections.svg` and `product-vs-coding-harness.svg` are missing. [PR23](https://github.com/cis2042/ux3-product-design-harness/pull/23) and [PR24](https://github.com/cis2042/ux3-product-design-harness/pull/24) were last recorded unmerged at 2026-10-24 04:22 Asia/Taipei; neither fix is included.
+
+Prepared with Codex AI assistance. No skill/host/model execution, CI success, security certification, maintainer acceptance or complete consumer installation is claimed. Installation uses this publisher's existing `skills` CLI route, not a new independent registry backend.
+
 ---
 
 *More skills coming. We're working on practices for prioritisation, stakeholder management, OKR-setting, post-mortems, and more. [Suggest one.](https://github.com/mindtheproduct/skills/issues/new)*
